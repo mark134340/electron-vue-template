@@ -1,0 +1,45 @@
+html {
+
+    font-size: $font-size-base;
+    height: 100%;
+    width: 100%;
+    line-height: 1.5;
+    letter-spacing: 0.01rem;
+}
+
+body {
+
+    font-family: $font-family-sans-serif;
+    background: $theme-background;
+    font-weight: 400;
+    overflow-x: hidden;
+    max-width: 100%;
+    height: 100%;
+    transition: background-color .3s ease;
+}
+
+/*
+--vh:整个页面的高度
+--headerTitleBarHeight:顶部标题栏的高度
+
+*/
+:root {
+    --vh: 800px;
+    --headerTitleBarHeight: 60px
+
+}
+#app {
+
+    min-height: 100%;
+}
+
+#header_titlebar {
+    height: var(--headerTitleBarHeight);
+}
+
+/*tab选项卡内容区的高度*/
+.router-view {
+    /*tab选项卡的默认高度为40px*/
+    min-height: calc(var(--vh) - var(--headerTitleBarHeight) - 40px);
+ 
+}

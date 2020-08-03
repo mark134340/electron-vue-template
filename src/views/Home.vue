@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="home router-view">
     <Intro msg="快速开始你的桌面应用开发"/>
   </div>
 </template>
@@ -17,9 +17,10 @@ export default {
 </script>
 <style lang="scss" >
 .home{
+  
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px;
+
 }
 </style>

@@ -1,0 +1,48 @@
+
+/*========================================================
+    主题颜色
+=========================================================*/
+
+$primary: #7367F0;
+$success: #28C76F;
+$danger: #EA5455;
+$warning: #FF9F43;
+$dark: #1E1E1E;
+$grey: #b8c2cc;
+$grey-light: #dae1e7;
+$white: #fff;
+$black: #22292f;
+
+/*========================================================
+    字体
+=========================================================*/
+$font-family-sans-serif:  "Montserrat", Helvetica, Arial, sans-serif !default;
+$font-family-serif:       Georgia, "Times New Roman", Times, serif !default;
+$font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace !default;
+$font-family-base:        $font-family-sans-serif !default;
+
+
+$font-size-base:          14px !default;
+$font-size-large:         ceil(($font-size-base * 1.25)) !default;
+$font-size-small:         ceil(($font-size-base * 0.85)) !default;
+
+$h1-font-size:                $font-size-base * 2;
+$h2-font-size:                $font-size-base * 1.74;
+$h3-font-size:                $font-size-base * 1.51;
+$h4-font-size:                $font-size-base * 1.32;
+$h5-font-size:                $font-size-base * 1.14;
+$h6-font-size:                $font-size-base;
+
+$font-weight-light:           300;
+$font-weight-normal:          400;
+$font-weight-bold:            700;
+
+$font-weight-base:            $font-weight-normal;
+$line-height-base:            1.45;
+
+
+
+/*========================================================
+    背景色
+=========================================================*/
+$theme-background: #f8f8f8;

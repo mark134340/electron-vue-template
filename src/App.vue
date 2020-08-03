@@ -16,10 +16,7 @@ export default {
 </script>
 
 <style>
-:root {
-  --vh: 800px;
-  
-}
+
 #app {
   height: 100%;
   font-family: 'Avenir', Helvetica, Arial, sans-serif;

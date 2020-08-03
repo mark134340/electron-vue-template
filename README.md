@@ -15,7 +15,7 @@
 + [eslint](https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint/)
 + [sass](https://sass-lang.com/dart-sass)
 + [svg-sprite-loader](https://www.npmjs.com/package/svg-sprite-loader)
-
++ [terser-webpack-plugin 代码压缩](https://www.npmjs.com/package/terser-webpack-plugin)
 #### &nbsp;已安装的UI库：
 + [Element-UI](https://element.eleme.cn/#/zh-CN/component/installation)
 
@@ -72,8 +72,8 @@ npm run electron:serve 推荐 yarn electron:serve
 npm run electron:build 推荐 yarn electron:build
 ```
 ## 注意：
-### favicon.ico图标大小为256*256,可以用[IcoFX 3]()工具制作.
-### LICENSE.txt文件编码格式为ASCLL，否则乱码.文本编辑器打开另存为ANSI格式即可.
+#### favicon.ico图标大小为256*256,可以用[IcoFX 3]()工具制作.
+#### LICENSE.txt文件需要另存为ANSI格式，否则会出现乱码.
 
 ### 关于vue-cli-plugin-electron-builder插件的详细使用文档：
 请阅读 [配置文档](https://nklayman.github.io/vue-cli-plugin-electron-builder/).
