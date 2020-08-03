@@ -72,7 +72,7 @@ npm run electron:serve 推荐 yarn electron:serve
 npm run electron:build 推荐 yarn electron:build
 ```
 ## 注意：
-#### favicon.ico图标大小为256*256,可以用[IcoFX 3]()工具制作.
+#### favicon.ico图标大小为256*256,可以用[IcoFX 3](https://www.updatestar.com/directdownload/icofx/2397493)工具制作.
 #### LICENSE.txt文件需要另存为ANSI格式，否则会出现乱码.
 
 ### 关于vue-cli-plugin-electron-builder插件的详细使用文档：
