@@ -49,12 +49,12 @@ nsis: {
 ## 如何使用：
 #### 克隆
 ```
-git clone https://github.com/mark134340/gitspace.git
+git clone https://github.com/mark134340/electron-vue-template.git
 ```
 
 ### 1.安装依赖
 ```
-npm install 或者 yarn install
+npm install 推荐 yarn install
 ```
 
 ### 2.启动 开发模式

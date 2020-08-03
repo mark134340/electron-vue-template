@@ -39,5 +39,6 @@
     "vue-cli-plugin-electron-builder": "^2.0.0-rc.4",
     "vue-cli-plugin-element": "^1.0.1",
     "vue-template-compiler": "^2.6.11"
-  }
+  },
+  "__npminstall_done": false
 }

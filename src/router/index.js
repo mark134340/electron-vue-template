@@ -42,9 +42,9 @@ Vue.use(VueRouter)
             
             },
             meta: {
-              title: 'Web浏览器', // 页签标题
-              icon: 'web', // 页签图标，可选
-              tips: 'Web浏览器', // 页签提示，可选，如未设置则跟title一致
+              title: '浏览器', // 页签标题
+              icon: 'fa fa-internet-explorer', // 页签图标，可选
+              tips: '浏览器', // 页签提示，可选，如未设置则跟title一致
               aliveId (route) {
                 return `/WebView/WebView/${route.params.catalog}`
               },
