@@ -36,6 +36,7 @@
     "sass": "^1.26.5",
     "sass-loader": "^8.0.2",
     "svg-sprite-loader": "^5.0.0",
+    "terser-webpack-plugin": "^3.0.8",
     "vue-cli-plugin-electron-builder": "^2.0.0-rc.4",
     "vue-cli-plugin-element": "^1.0.1",
     "vue-template-compiler": "^2.6.11"

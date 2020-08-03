@@ -13,6 +13,7 @@ protocol.registerSchemesAsPrivileged([
   { scheme: 'app', privileges: { secure: true, standard: true } }
 ])
 
+
 //获取flash安装目录，如果安装了flash就加载插件
 let flashPath = app.getPath('pepperFlashSystemPlugin')
 
@@ -20,13 +21,15 @@ if(flashPath){
   app.commandLine.appendSwitch('ppapi-flash-path', flashPath)
 }
 
-
 function createWindow() {
   // 创建主窗口.
   win = new BrowserWindow({
     width: 800,
     height: 600,
+    minWidth: 400,
+    minHeight: 300,
     frame:false,
+    
     webPreferences: {
       //新版vue-cli-plugin-electron-builder需在webpack里启用nodeIntegration（让渲染进程node可用）
       // Use pluginOptions.nodeIntegration, leave this alone

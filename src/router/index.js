@@ -4,7 +4,7 @@ import Home from '../views/Home.vue'
 
 // RouterTab 内置路由
 import { RouterTabRoutes } from 'vue-router-tab'
-
+import Iframe from 'vue-router-tab/lib/page/Iframe.vue'
 Vue.use(VueRouter)
 
   const routes = [
@@ -29,8 +29,6 @@ Vue.use(VueRouter)
               icon: 'home', // 页签图标，可选
               tips: '首页', // 页签提示，可选，如未设置则跟title一致
               
-
-              rule: 'editor',
             }
           },
           
@@ -49,7 +47,20 @@ Vue.use(VueRouter)
                 return `/WebView/WebView/${route.params.catalog}`
               },
 
-              rule: 'editor',
+            }
+          },
+          {
+            // iframe 路由
+            path: '/iframe/:src/:title?/:icon?',
+            name:'Iframe',
+            component: Iframe,
+            props: true,
+            meta: {
+              
+              key: route => `iframe-${route.params.src}`,
+              title: route => route.params.title,
+              icon: route => route.params.icon,
+
             }
           },
         ]

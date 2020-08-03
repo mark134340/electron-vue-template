@@ -1,12 +1,3 @@
-<!-- =========================================================================================
-    File Name: Main.vue
-    Description: Main layout
-    ----------------------------------------------------------------------------------------
-  Item Name: pgman
-    Author: mark
-  Author URL: http://www.ptynm.com
-========================================================================================== -->
-
 
 <template >
   <div class="layout--main"  >
@@ -58,8 +49,8 @@ export default {
   },
   methods: {
     handleWindowResize() {
-    //   this.$store.commit("UPDATE_WINDOW_WIDTH", window.innerWidth);
-        console.log(window.innerHeight);
+   
+
       // Set --vh property
       document.documentElement.style.setProperty(
         "--vh",

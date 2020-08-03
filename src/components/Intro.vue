@@ -6,9 +6,8 @@
       
     <span>
       gethub地址：
-      
-      <router-link :to="{ name: 'WebView',params: {'catalog': 'b', 'URL': 'https://github.com/mark134340/gitspace' }}">
-        electron-vue-getstart
+      <router-link :to="{ name: 'WebView',params: {'catalog': 'b', 'URL': 'https://github.com/mark134340/electron-vue-template' }}">
+        electron-vue-template
       </router-link>
     </span>
     <h3>已安装插件：</h3>

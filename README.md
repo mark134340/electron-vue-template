@@ -2,6 +2,12 @@
 
 ### &nbsp;此模板是用 [vue-cli3](https://cli.vuejs.org/) + [vue-cli-plugin-electron-builder](https://nklayman.github.io/vue-cli-plugin-electron-builder/)构建的.
 
+
+#### 截图
+![页面1](截图/1.png)
+![页面2](截图/2.png)
+![结构](截图/3.png)
+
 #### &nbsp;已安装的插件：
 + [babel](https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel)
 + [router](https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-router)
@@ -17,8 +23,7 @@
 + [vue-router-tab](https://bhuh12.github.io/vue-router-tab/zh/guide/)
 + [is-url](https://www.npmjs.com/package/is-url)
 
-## 其他：
-#### 精灵图标：
+#### SVG精灵图标：
 "src\assets\svg-icons\UI-icons\svg"文件夹下的svg文件如：“loading.svg”可以调用svgIcon组件使用：
 ```
 <svg-icon file-name="loading" size="20px" />
@@ -44,7 +49,7 @@ nsis: {
 },
 ```
 
-### 可在“vue.config.js”里自行修改配置
+##### 可在“vue.config.js”里自行修改配置
 
 ## 如何使用：
 #### 克隆
@@ -66,11 +71,9 @@ npm run electron:serve 推荐 yarn electron:serve
 ```
 npm run electron:build 推荐 yarn electron:build
 ```
-
-### Lints and fixes files
-```
-npm run lint
-```
+## 注意：
+### favicon.ico图标大小为256*256,可以用[IcoFX 3]()工具制作.
+### LICENSE.txt文件编码格式为ASCLL，否则乱码.文本编辑器打开另存为ANSI格式即可.
 
 ### 关于vue-cli-plugin-electron-builder插件的详细使用文档：
 请阅读 [配置文档](https://nklayman.github.io/vue-cli-plugin-electron-builder/).

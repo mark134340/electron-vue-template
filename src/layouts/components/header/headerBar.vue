@@ -3,13 +3,13 @@
 
  <!-- Header -->
     <div class="left-menu">
-      <span class="top-icon cursor-pointer hover:text-primary" >
-        <img alt="Vue logo" style="height: 30px" src="../../../assets/logo.png">
+      <span class="top-icon" >
+        <svg-icon file-name="vue" size="25px" />
       </span>
 
     </div>
     <div class="center-searchbar">
-      <el-input size="mini" icon-no-border placeholder="请输入..." v-model="searchQuery" @keyup.enter.native="toSearch"  icon="icon-search" icon-pack="feather" />
+      <el-input size="mini" placeholder="请输入..." v-model="searchQuery" @keyup.enter.native="toSearch"  suffix-icon="fa fa-search"  />
     </div>
     <div class="right-menu">
       <div class="menu-btn">
@@ -124,7 +124,7 @@ export default {
     flex: none;
     height: 100%;
     display: inline-flex;
-    padding-right: 5px;
+
     justify-content: flex-end;
     align-items: center;
     min-width: 200px;
@@ -145,7 +145,7 @@ export default {
       align-items: center;
       min-width: 100px;
       height: 100%;
-      margin-right: 5px;
+      
       
       .cotrl-btn{
         display: inline-flex;
@@ -154,7 +154,7 @@ export default {
         height: 100%;
         width: 50px;
         &:hover{
-          background-color: rgba(255, 255, 255, 0.274);
+          background-color: #363a47;
         }
       }
 

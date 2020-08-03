@@ -6,8 +6,8 @@
             <router-tab alive-id="fullPath" :closable="true" :restore="true" :restoreWatch="true" page-transition="page-fade">
               <template v-slot="tab" >
                 <img :src="tab.icon" v-if="IsUrl(tab.icon)" alt=""   :style="{ width:'15px', height:'15px',marginRight: '5px'}">
-                <i v-else class=" hover:text-primary router-tab__item-icon iconfont" :icon="tab.icon" svgClasses="w-4 h-4" />
-                <span class="router-tab__item-title hover:text-primary" :title="tab.tips">{{tab.title}}</span>
+                <i v-else class="router-tab__item-icon iconfont" :icon="tab.icon"  />
+                <span class="router-tab__item-title" :title="tab.tips">{{tab.title}}</span>
                 
                 <i
                   
