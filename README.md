@@ -2,6 +2,10 @@
 
 ### &nbsp;此模板是用 [vue-cli3](https://cli.vuejs.org/) + [vue-cli-plugin-electron-builder](https://nklayman.github.io/vue-cli-plugin-electron-builder/)构建的.
 
+### 搭建环境：
+- nodejs v12.14.1
+- electron 9.0.0
+- vue 2.6.11
 
 #### 截图
 ![页面1](截图/1.png)
@@ -52,7 +56,19 @@ nsis: {
 ##### 可在“vue.config.js”里自行修改配置
 
 ## 如何使用：
-#### 克隆
+### -1.前提：
++ 全局安装[nodejs v12.x](https://nodejs.org/en/)
+
++ 安装yarn
+  + ``` npm install -g yarn ```
++ 安装cnpm代替npm并给npm和yarn配置淘宝镜像源：
+  + npm: <br/>
+  ``` npm install -g cnpm --registry=https://registry.npm.taobao.org ```
+  + yarn:<br/>
+   ``` yarn config set registry https://registry.npm.taobao.org/ ```
++ 全局安装[vue-cli3或4](https://cli.vuejs.org/)
+  + &nbsp; ``` npm install -g @vue/cli 或者 yarn global add @vue/cli  ```
+### 0.克隆
 ```
 git clone https://github.com/mark134340/electron-vue-template.git
 ```
