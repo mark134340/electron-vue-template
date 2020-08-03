@@ -28,9 +28,9 @@
 + [is-url](https://www.npmjs.com/package/is-url)
 
 #### SVG精灵图标：
-"src\assets\svg-icons\UI-icons\svg"文件夹下的svg文件如：“loading.svg”可以调用svgIcon组件使用：
+"src\assets\svg-icons\UI-icons\svg"文件夹下的svg文件如：“vue.svg”可以调用svgIcon组件使用：
 ```
-<svg-icon file-name="loading" size="20px" />
+<svg-icon file-name="vue" size="20px" />
 ```
 #### 包含了 [font-awesome 4.7](http://www.fontawesome.com.cn/) 图标
 ```
